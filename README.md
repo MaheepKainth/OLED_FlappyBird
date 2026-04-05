@@ -1,14 +1,6 @@
 Flappy Bird — ESP32 SSD1306 OLED
 A fully playable Flappy Bird clone running on an ESP32 with a 128x64 SSD1306 OLED display and a single pushbutton.
 
-Hardware
-ComponentDetailsMicrocontrollerDOIT ESP32 DEVKIT V1 (30-pin)DisplaySSD1306 128x64 OLED (I2C)InputMomentary pushbutton
-Wiring
-ESP32 PinConnects ToGPIO 21 (SDA)OLED SDAGPIO 22 (SCL)OLED SCL3.3VOLED VCCGNDOLED GNDGPIO 5Button leg 1GNDButton leg 2
-
-No resistor needed on the button — INPUT_PULLUP is used in firmware.
-
-
 Software
 
 Environment: PlatformIO + VS Code
