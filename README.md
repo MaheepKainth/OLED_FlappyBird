@@ -52,13 +52,3 @@ Set output format to Arduino code, code format to Horizontal
 Replace the birdUp, birdMid, birdDown arrays in the source
 
 
-Schematic
-ESP32                SSD1306
-3.3V  ────────────── VCC
-GND   ────────────── GND
-GPIO21 ───────────── SDA
-GPIO22 ───────────── SCL
-
-ESP32                Button
-GPIO5  ──────────── leg 1
-GND   ────────────── leg 2
